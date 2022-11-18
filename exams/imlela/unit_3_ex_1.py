@@ -7,16 +7,10 @@ input a list of a comma separated numbers
 s = input('Enter a list of a comma separated nums:\n')
 str_nums = s.split(',')
 print(str_nums)
-nums = []
-for i in range(len(str_nums)):
-    print(i)
-    nums.append(int(str_nums[i]))
-print(nums)
-
+num = []
 for n in str_nums:
-    nums.append(int(n))
-print(nums)
-
+    num.append(int(n))
+print(num)
 nums = list(map(int,str_nums))
 print(nums)
 nums = list(map(float,str_nums))
