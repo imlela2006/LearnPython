@@ -8,3 +8,4 @@ ex. 5
 ex. 9
 9 is not a prime number.
 """
+n = input("")
